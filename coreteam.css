@@ -1,0 +1,357 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.ha{
+
+}
+
+header{
+  border-bottom:3px solid #d6d2c4;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: 100px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.logodsc{
+	max-width: 110px;
+	position: relative;
+	float: left;
+	z-index: 10;
+	margin-left: 10px;
+}
+ span{
+		color: #968c83;
+		font-size: 13px;
+}
+
+.logotittle{
+		color: #968c83;
+
+	opacity: 0;
+	margin-left: 10px;
+	float: left;
+	margin-top:36px;
+	font-size: 15px;
+}
+
+
+.ha{
+	height: 100px;
+	float: left;
+	cursor: pointer;
+}
+.ha:hover p{
+	opacity: 1;
+	transform: scale(1);
+	transition-duration: 1s;
+}
+.ha:hover img{
+	max-width: 50px;
+		transform: scale(1.1) rotate(360deg);
+	transition-duration: 1s;
+	cursor: pointer;
+	margin-top: 25px;
+}
+.menu{
+	float: right;
+}
+
+.menu li{
+	display: inline-block;
+	font-size: 20px;
+	margin-top:45px;
+	margin-right: 20px;
+
+}
+
+.menu li a{
+		color: #968c83;
+		font-weight: 20;
+}
+
+.menu li a:hover {
+	font-size: 21px;
+	color:#373a40;
+	transform: scale(1.3);
+	transition-duration: 1s;
+}
+.active{
+	border-bottom: 2px solid  #968c83;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 22px 26px 20px 20px;
+  z-index: 1;
+  font-size: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+main{
+  height: 870px;
+  width:90%;
+  margin: 0 auto;
+  background-image: url(logodsc2.png);
+ background-repeat:no-repeat;
+ 		background-position:  850px -120px;
+
+
+}
+
+.banner{
+	  width:40%;
+	  height: 200px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.logodscsr{
+	max-width: 50px;
+	float: left;
+	margin-top: 10px;
+}
+.logodscsr:hover{
+		transform: scale(1) rotate(360deg);
+	transition-duration: 1s;
+	cursor: pointer;
+}
+
+.text{
+	color: #363636;
+  clear: both;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+.text span{
+		color: #968c83;
+		letter-spacing: 3px;
+}
+small{
+			color: #968c83;
+}
+.text p{
+	padding-top: 50px;
+	padding-left: 10px;
+	float: left;
+	letter-spacing: 2px;
+	margin-top: -30px;
+	font-size: 20px;
+		color: #968c83;
+}
+.text1 p{
+		font-size: 40px;
+		color: #968c83;
+}
+.text span{
+	font-size: 15px;
+}
+.texttengah{
+	float: left;
+	font-size: 20px;
+
+}
+
+
+
+
+
+
+
+.tengah{
+	background-color: #fbbc04;
+	background-image: url(logodsc3.png);
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 30%;
+	height: 200px;
+	margin:0 auto;
+	margin-top: -70px;
+	margin-bottom: 50px;
+	border-radius:10px;
+	 box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 6px 8px rgba(0,0,0,0.11),
+              0 8px 16px rgba(0,0,0,0.11);
+
+}
+.tengah2{
+	margin-left: 40px;
+	float: left;
+	background-color: #fbbc04;
+	background-image: url(logodsc3.png);
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 350px;
+	height: 350px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	border-radius:10px;
+	 box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 6px 8px rgba(0,0,0,0.11),
+              0 8px 16px rgba(0,0,0,0.11);
+
+}
+
+footer{
+	height: 200px;
+	width:100%;
+	background-color: #373a40;
+}
+
+.h{
+	margin-left: 100px;
+	height: 100px;
+	width: 260px;
+	float: left;
+}
+.j{
+	margin-top: 40px;
+
+	height: 100px;
+	float: left;
+	width: 200px;
+}
+.k{
+	margin-top: 40px;
+
+	height: 100px;
+	float: right;
+	width: 350px;
+}
+
+.g{
+	height: 100px;
+	float: right;
+	width: 200px;
+	color: white;
+	font-size: 15px;
+	padding: 20px;
+	padding-top: 25px;
+}
+.logotittles span{
+	color: #fbbc04;
+	font-size: 13px;
+
+}
+.logodscs{
+	max-width: 50px;
+	position: relative;
+	float: left;
+	z-index: 10;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.logotittles{
+	color: white;
+	margin-left: 15px;
+	float: left;
+	margin-top:35px;
+	font-size: 15px;
+}
+
+.menus{
+	border-left: 2px solid white;
+	line-height: 25px;
+	letter-spacing: 2px;
+}
+
+.menus li{
+	margin-left: 10px;
+	font-size: 15px;
+	margin-right: 20px;
+
+}
+
+.menus li a{
+		color: white;
+		font-weight: 20;
+}
+
+.menus li a:hover {
+	font-weight: bold;
+}
+
+.subs{
+	color: white;
+}
+.input input{
+	margin-top: 5px;
+	float: left;
+	width: 200px;
+	height: 20px;
+}
+
+.input p{
+	clear: left;
+	font-size: 10px;
+	padding-top: 5px;
+	letter-spacing: 1px;
+}
+
+.get{
+	padding-top: 3px;
+	float: left;
+		height: 21px;
+		width: 50px;
+		margin-top: 5px;
+	background-color: #d92027;
+	cursor: pointer;
+}
+
+.get i{
+	margin-left: 5px;
+}
+
+.get:hover{
+	color: #d92027;
+	background-color: #d6d2c4;
+	transition-duration: 1s;
+}
+
